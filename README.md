@@ -26,54 +26,65 @@ import pandas as pd
 df=pd.read_csv("/content/SAMPLEIDS.csv")
 df
 ```
-![output 1](https://github.com/chgeethika/ex-no1/assets/142209368/cc27d6cf-05b5-4b55-9c0a-2c03001688f9)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/872ae34a-5878-4024-a9b8-5fc354e48873)
+
 ```
 print(df.head(7))
 ```
-![o 3](https://github.com/chgeethika/ex-no1/assets/142209368/ad269980-fb09-4705-991a-7076f0b28700)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/2a45bd96-81c3-4465-bcd0-6461730b9d05)
+
 ```
 print(df.tail(2))
 ```
-![o4](https://github.com/chgeethika/ex-no1/assets/142209368/99c1ad9e-d98c-44a3-96a5-61a8622d6178)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/62ff6850-c23c-4794-9606-d37d5f07a96c)
+
 ```
 df.info()
 ```
-![o5](https://github.com/chgeethika/ex-no1/assets/142209368/811fbadb-3961-4c7d-b945-60ef2d52005c)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/e86eaa13-543b-4496-96a7-f27a6a45bd26)
+
 ```
 print(df.describe())
 ```
-![o6](https://github.com/chgeethika/ex-no1/assets/142209368/0c207343-ef54-4b43-b547-1a5af544a062)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/a2b55063-31e8-45fb-bfb8-61ce9c27016a)
+
 ```
 df.isnull().sum()
 ```
-![o7](https://github.com/chgeethika/ex-no1/assets/142209368/87c68baa-7624-4e1a-971a-80c83eb61d90)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/f7724e20-e08f-4aa4-acdd-a979aca560ee)
+
 ```
 df.nunique()
 ```
-![o8](https://github.com/chgeethika/ex-no1/assets/142209368/9d9493c9-6e0b-4ee6-89be-17cbd2e5e56d)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/f4eaec9e-96bf-4573-ab6d-33b363397910)
+
 ```
 mn=df.TOTAL.mean()
 mn
 ```
-![mn](https://github.com/chgeethika/ex-no1/assets/142209368/37a126cd-8ea9-4c65-af75-2697bddd6a35)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/28181d4b-84bb-4411-bdeb-f0ce81d67b37)
+
 
 ```
 df.TOTAL.fillna(mn,inplace=True)
 df
 ```
-![o9](https://github.com/chgeethika/ex-no1/assets/142209368/52bc6f65-7e58-4246-b74d-aaab99b4fb0d)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/54f8c831-34c5-41d1-9701-b705b91892d8)
+
 ```
 min=df.M4.min()
 min
 ```
-![min](https://github.com/chgeethika/ex-no1/assets/142209368/3571db1b-b18c-439e-814b-4ecc847615c4)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/543ff734-afe8-4dbb-b48e-83d528cd382d)
+
 ```
 df.M4.fillna(min,inplace=True)
 df
 ```
-![o10](https://github.com/chgeethika/ex-no1/assets/142209368/193b4f4d-cb59-4493-bafe-2c3aebb9c503)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/d5975b1e-0666-412f-a24e-958fccc41c20)
 
-![o10](https://github.com/chgeethika/ex-no1/assets/142209368/5a0746c8-ed4d-4dc3-a67f-c6e9656ce551)
+
+![o10](https://github.com/KUSHALI104/ex-no1/assets/142209368/5a0746c8-ed4d-4dc3-a67f-c6e9656ce551)
 ```
 import pandas as pd
 import seaborn as sns
