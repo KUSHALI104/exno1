@@ -84,7 +84,8 @@ df
 ![image](https://github.com/KUSHALI104/exno1/assets/150231135/d5975b1e-0666-412f-a24e-958fccc41c20)
 
 
-![o10](https://github.com/KUSHALI104/ex-no1/assets/142209368/5a0746c8-ed4d-4dc3-a67f-c6e9656ce551)
+![image](https://github.com/KUSHALI104/exno1/assets/150231135/9ea391cc-002a-4ecd-8a26-15b96e6a0b63)
+
 ```
 import pandas as pd
 import seaborn as sns
@@ -92,16 +93,19 @@ age=[1,3,28,27,25,92,30,39,40,50,26,24,29,94]
 af=pd.DataFrame(age)
 af
 ```
-![o12](https://github.com/chgeethika/ex-no1/assets/142209368/35531f01-5402-4cc1-991f-a07e62dacf48)
+![op1](https://github.com/KUSHALI104/exno1/assets/150231135/f8920834-db32-416c-90fd-dcdbd7380664)
+
 ```
 sns.boxplot(data=af)
 ```
-![o13](https://github.com/chgeethika/ex-no1/assets/142209368/32e94065-fd93-4f9e-93ec-5f3894e955b4)
+![op2](https://github.com/KUSHALI104/exno1/assets/150231135/68c62fe4-b1ef-486c-ad49-7ba80a8d2a14)
+
 
 ```
 sns.scatterplot(data=af)
 ```
-![o14](https://github.com/chgeethika/ex-no1/assets/142209368/3d0adb77-0703-44c3-9261-f74cb1f0b920)
+![op3](https://github.com/KUSHALI104/exno1/assets/150231135/defe0293-d03b-4586-a6ee-7f7c9fb25366)
+
 ```
 q1=af.quantile(0.25)
 q2=af.quantile(0.50)
@@ -113,38 +117,44 @@ low
 high=q3+1.5*iqr
 high
 ```
-![o15](https://github.com/chgeethika/ex-no1/assets/142209368/225a452e-83d4-4210-8748-e8add5b925e1)
+![op4](https://github.com/KUSHALI104/exno1/assets/150231135/55edb6d7-0fb0-4f00-8ae1-ba57d4eb544c)
+
 ```
 af=af[((af>=low)&(af<=high))]
 af
 ```
-![o16](https://github.com/chgeethika/ex-no1/assets/142209368/49056f63-9937-4109-a285-8c4388441f46)
+![op5](https://github.com/KUSHALI104/exno1/assets/150231135/465a4183-e553-46b8-bc1f-75e4d0658ea5)
+
 ```
 af.dropna()
 ```
-![o17](https://github.com/chgeethika/ex-no1/assets/142209368/466a854d-4b2f-43c8-85f8-ac94ad6e38d5)
+![op6](https://github.com/KUSHALI104/exno1/assets/150231135/9f6b1d62-903f-4833-97cd-f06f86ea8d74)
+
 ```
 sns.boxplot(data=af)
 ```
-![o18](https://github.com/chgeethika/ex-no1/assets/142209368/7b62062c-59cc-4789-bbcf-5e4fd63c0b53)
+![op7](https://github.com/KUSHALI104/exno1/assets/150231135/d31da394-7ec0-4219-b5ef-106c49b956b6)
 
 ```
 sns.scatterplot(data=af)
 ```
-![o19](https://github.com/chgeethika/ex-no1/assets/142209368/d294460b-cd0a-4f8e-8ea7-495169adb75c)
+![op8](https://github.com/KUSHALI104/exno1/assets/150231135/c4d48a75-643f-4a4c-bf75-1c6482bfe02c)
+
 ```
 data=[1,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78,81,84,87,90,93,96,99,102,105]
 df=pd.DataFrame(data)
 df
 ```
-![o20](https://github.com/chgeethika/ex-no1/assets/142209368/bff14676-97ae-4ebd-9897-89d9e8a3bc87)
+![op9](https://github.com/KUSHALI104/exno1/assets/150231135/b67ce8a7-21a7-4ab4-a36f-86fd11671752)
+
 ```
 import numpy as np
 from scipy import stats
 z=np.abs(stats.zscore(df))
 z
 ```
-![o22](https://github.com/chgeethika/ex-no1/assets/142209368/9a5242a4-f1c6-4ffa-96b1-fa68c0aa81ab)
+![op10](https://github.com/KUSHALI104/exno1/assets/150231135/c67b80b7-d3f1-4cd3-ae66-8b5a4536b105)
+
 
 # Result
 Thus the given program executed successfully.
